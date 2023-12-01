@@ -14,7 +14,7 @@
 }
 
 #bodsheader {
-    font-size: 25px;
+    font-size: 20px;
     position: sticky;
     top: 0px;
     width: 1440px;
@@ -107,7 +107,8 @@ body {
 
 #hemoglobin {
     padding-top: 40px;
-    padding-left: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .headimg {
@@ -118,4 +119,11 @@ body {
     width: 250px;
     height: 250px;
     padding-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 100px 200px;
+    place-items: center;
 }
