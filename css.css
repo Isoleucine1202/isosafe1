@@ -18,7 +18,8 @@
     position: sticky;
     top: 0px;
     width: 101%;
-    height: 84px;
+    height: 64px;
+    
 }
 
 .top {
@@ -37,7 +38,7 @@
 .headerlink {
     color: black;
     font-size: 25px;
-
+    opacity: 1;
 }
 
 header {
@@ -135,4 +136,23 @@ body {
 
 .maintxt {
     font-size: 20px;
+}
+
+.currentpage {
+    background-color: lightslategray;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.headertxt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.bodslogo {
+    height: 50px;
+    padding: 0;
+    padding-left: 5px;
 }
