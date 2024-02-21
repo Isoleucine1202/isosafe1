@@ -127,3 +127,12 @@ body {
     grid-template-rows: 100px 200px;
     place-items: center;
 }
+
+.highlights {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+.maintxt {
+    font-size: 20px;
+}
