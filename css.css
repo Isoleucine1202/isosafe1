@@ -106,13 +106,15 @@ body {
 }
 
 #hemoglobin {
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 50px;
     margin-top: 50px;
     padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
     background-color: #fafafa;
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 5px 0 rgba(0, 0, 0, 0.05);
 }
 
@@ -167,4 +169,43 @@ body {
     font-size: 18px;
     padding-top: 5px;
     padding-bottom: 10px;
+}
+
+.pgheader {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.pgbodylt {
+    order: 1;
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #fafafa;
+    border-radius: 7px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.pgbodyrt {
+    order: 2;
+    width: 40%;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #fafafa;
+    border-radius: 7px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05), 0 3px 5px 0 rgba(0, 0, 0, 0.05);
+}
+
+.row {
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: stretch;
 }
