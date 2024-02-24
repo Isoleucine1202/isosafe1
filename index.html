@@ -18,13 +18,14 @@
 
     <!--<img src="something.png" alt="bodslogo" style="width: 100px; height: 110px;">-->
 
-    <header id="bodsheader">
-        <!--<button class="homebutton"><a href="index.html">-->
-                <img src="something.png" alt="bodslogo" class="bodslogo">
-            </a>
-        <!--</button>-->
-        <a href="about.html" class="headerlink" style="text-decoration: none;">About Us</a>
-        <div class="dropdown">
+    <header id="bodsheader" class="shadow">
+        <a href="index.html">
+            <img src="something.png" alt="bodslogo" class="bodslogo headertxt">
+        </a>
+        <div><a href="about.html" class="headerlink headertxt" style="text-decoration: none;">About
+                Us</a>
+        </div>
+        <div class="dropdown headertxt">
             <a href="resources.html" class="headerlink" style="text-decoration: none;">Resources</a>
             <span><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
                     stroke-linejoin="round" aria-hidden="true" focusable="false" height="0.75em" width="0.75em"
@@ -36,7 +37,7 @@
                 <br><a href="guides.html" class="dcon">Guides</a></br>
             </div>
         </div>
-        <div class="dropdown">
+        <div class="dropdown headertxt">
             <a href="oly.html" class="headerlink" style="text-decoration: none;">Olympiads</a>
             <span><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
                     stroke-linejoin="round" aria-hidden="true" focusable="false" height="0.75em" width="0.75em"
@@ -49,8 +50,8 @@
                 <a href="https://ibo-info.org/en/" class="dcon" target="_blank">IBO</a>
             </div>
         </div>
-        <p id="pyruvate">eutrophication</p>
-        <p id="pyruvate">atp hydrolysis</p>
+        <p id="pyruvate" class="headertxt">eutrophication</p>
+        <p id="pyruvate" class="headertxt">atp hydrolysis</p>
     </header>
     <div id="cAMP">
         <img src="something.png" alt="bodslogobig" class="headimg">
@@ -64,21 +65,30 @@
                 </a>
             </p>
         </section>
+        <br>
+        <br>
+        <hr height="3px" width="1200px" noshade>
     </div>
     <div id="hemoglobin">
-        <h2>
+        <h2 style="text-align: center;">
             What is BODS?
         </h2>
         <p class="maintxt">
-            <acronym title="Biology Olympiads Discord Server">BODS</acronym> is an international community
-            open and welcome to all biology lovers. We...
-        <ul>
-            <li>Host <span class="highlights">mock biolympiad</span> contests</li>
-            <li>Share <span class="highlights">resources and textbooks</span></li>
-            <li>Hold <span class="highlights">staff lectures</span> held by moderators and administrators</li>
-        </ul>
-        </p>
+            <acronym title="Biology Olympiads Discord Server">BODS</acronym> is a community full of biology lovers
+            <em>from
+                around the globe</em>. We...
+        <div style="text-align: center; font-size: large;">
+            <p>Host <span class="highlights">mock biolympiad</span> contests</p>
+            <p>Share <span class="highlights">resources and textbooks</span></p>
+            <p>Hold <span class="highlights">staff lectures</span> held by moderators and administrators</p>
+            </p>
+        </div>
     </div>
+    <!--<div class="footer">
+        <p class="footertxt">
+            Ian Savino
+        </p>
+    </div>-->
 </body>
 
 </html>
