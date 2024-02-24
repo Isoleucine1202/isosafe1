@@ -178,10 +178,10 @@ body {
 
 .pgbodylt {
     order: 1;
-    width: 40%;
+    width: 42%;
     display: inline-block;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 5px;
     padding-right: 25px;
     padding-left: 25px;
@@ -192,10 +192,10 @@ body {
 
 .pgbodyrt {
     order: 2;
-    width: 40%;
+    width: 42%;
     display: inline-block;
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 5px;
     padding-right: 25px;
     padding-left: 25px;
@@ -205,7 +205,9 @@ body {
 }
 
 .row {
+    display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    justify-content: center;
     align-items: stretch;
+    gap: 2.5%;
 }
