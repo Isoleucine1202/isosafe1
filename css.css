@@ -18,11 +18,11 @@
     position: sticky;
     top: 0px;
     width: 100%;
-    height: 4.6vw;
+    height: 4.4vw;
 }
 
 .dropdownarrow {
-    font-size: 1.4vw;
+    font-size: 1.3vw;
 }
 
 .top {
@@ -39,7 +39,7 @@
 
 .headerlink {
     color: black;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     opacity: 1;
     text-decoration: none;
 }
@@ -57,9 +57,10 @@ nav {
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: justify;
-    justify-content: space-around;
-    flex-direction: flex;
+    justify-content: center;
+    flex-direction: row;
     margin-inline-end: 0px;
+    gap: 4.5vw;
     background-color: #fafafa;
 }
 
@@ -169,7 +170,7 @@ body {
 }
 
 .bodslogo {
-    height: 3.3vw;
+    height: 3.2vw;
     padding: 0;
     padding-left: 5px;
 }
